@@ -3,7 +3,7 @@ const path =
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: './index.js',
     output: {
         path: path.resolve(__dirname, 'output'),
         filename: 'bundle.js',
